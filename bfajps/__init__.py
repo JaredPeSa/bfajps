@@ -1,6 +1,9 @@
 import itertools
 import networkx as nx
 
+def suma(a, b):
+    return a + b
+
 # programa para ver si es h
 
 def is_hamiltonian_cycle(graph, cycle):
